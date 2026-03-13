@@ -12,6 +12,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
 export const metadata: Metadata = {
   title: "Engineered Growth Firm",
   description: "Modern, high-performance Homepage built with Next.js and Tailwind CSS.",
@@ -31,9 +34,13 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-noise flex flex-col min-h-screen relative`}
       >
-        {children}
+        <Navbar />
+        <main className="flex-grow flex flex-col pt-24 md:pt-32 relative z-10">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );

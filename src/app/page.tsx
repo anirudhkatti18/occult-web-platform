@@ -2,30 +2,15 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div className="bg-[#050505] text-slate-100 min-h-screen flex flex-col font-sans">
+    <div className="bg-[#050505] text-slate-100 flex flex-col font-sans">
       <div className="bg-noise"></div>
       
-      {/* Header */}
-      <header className="w-full max-w-7xl mx-auto flex justify-between items-center py-6 px-6 relative z-10">
-        <div className="flex items-center gap-2">
-          <img src="/logos/occult-logo.svg" alt="Occult Logo" className="h-8 md:h-10 w-auto object-contain" />
-        </div>
-        <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300 uppercase tracking-widest">
-          <a href="#" className="hover:text-primary transition-colors">Home</a>
-          <a href="#" className="hover:text-primary transition-colors">About</a>
-          <a href="#" className="hover:text-primary transition-colors">Work</a>
-          <a href="#" className="hover:text-primary transition-colors">Services</a>
-          <a href="#" className="hover:text-primary transition-colors">Contact</a>
-        </nav>
-        {/* Mobile Menu Button Placeholder */}
-        <button className="md:hidden material-symbols-outlined text-slate-100 text-2xl">menu</button>
-      </header>
-      
+
       {/* Main Content */}
       <main className="w-full max-w-7xl mx-auto px-6 relative z-10 flex-1 flex flex-col">
         
         {/* Brutalist Hero Section */}
-        <section className="flex flex-col justify-center py-32 md:py-48 lg:py-64 text-left">
+        <section className="flex flex-col justify-center pt-16 pb-16 md:pt-24 md:pb-24 lg:pt-32 lg:pb-32 text-left">
           <div className="inline-flex items-center gap-3 px-4 py-1.5 border border-white/10 mb-10 self-start bg-black/50">
             <span className="w-2 h-2 rounded-none bg-primary animate-pulse"></span>
             <span className="text-xs uppercase tracking-[0.3em] font-bold text-slate-400">Engineered Growth Firm</span>
@@ -50,23 +35,21 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Logo Ticker */}
-        <section className="py-20 border-y border-white/10 overflow-hidden relative mb-32 lg:mb-48">
-          <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-[#050505] to-transparent z-10"></div>
-          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-[#050505] to-transparent z-10"></div>
-          
-          <div className="flex items-center justify-center gap-16 md:gap-32 opacity-40 hover:opacity-100 saturate-0 hover:saturate-100 transition-all duration-700">
-            <img src="/logos/occult-logo.svg" alt="Client Logo 1" className="h-8 md:h-10 w-auto object-contain" />
-            <img src="/logos/occult-logo.svg" alt="Client Logo 2" className="h-8 md:h-10 w-auto object-contain" />
-            <img src="/logos/occult-logo.svg" alt="Client Logo 3" className="h-8 md:h-10 w-auto object-contain" />
-            <img src="/logos/occult-logo.svg" alt="Client Logo 4" className="h-8 md:h-10 w-auto object-contain" />
-            <img src="/logos/occult-logo.svg" alt="Client Logo 5" className="h-8 md:h-10 w-auto object-contain hidden md:block" />
+        {/* Powered By Industry Leaders */}
+        <section className="py-10 border-y border-white/10 relative mb-16 lg:mb-24">
+          <p className="text-center font-semibold text-xs text-gray-500 uppercase tracking-widest mb-8">POWERED BY INDUSTRY LEADERS</p>
+          <div className="flex flex-wrap items-center justify-center gap-12 md:gap-20">
+            <img src="/logos/Google_Cloud_logo.svg" alt="Google Cloud" className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+            <img src="/logos/Meta_Platforms_Inc._logo.svg" alt="Meta" className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+            <img src="/logos/amazon-prime-icon.svg" alt="Amazon Prime" className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+            <img src="/logos/canva-icon.svg" alt="Canva" className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+            <img src="/logos/aistudio.svg" alt="AI Studio" className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
           </div>
         </section>
 
         {/* Asymmetrical Capabilities Content Block */}
-        <section className="pb-32">
-          <div className="mb-24">
+        <section className="pb-16">
+          <div className="mb-12">
             <h2 className="text-4xl md:text-6xl font-black tracking-tighter text-white mb-6 uppercase">Framework</h2>
             <div className="h-1 w-24 bg-primary rounded-none"></div>
             <p className="text-slate-400 max-w-lg mt-8 text-lg font-light leading-relaxed">
@@ -77,7 +60,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-1 md:gap-4">
             
             {/* Block 1: Commanding Visibility (8 columns) */}
-            <div className="md:col-span-8 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group hover:bg-white/10 transition-all duration-700 p-12 md:p-16 flex flex-col h-full min-h-[400px] hover:border-primary/50">
+            <div className="md:col-span-8 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-12 md:p-16 flex flex-col h-full min-h-[400px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
               
               <div className="mb-8 relative z-10 border border-white/20 p-4 inline-flex items-center justify-center self-start bg-black/40 group-hover:border-primary/50 transition-colors duration-500">
                 <span className="material-symbols-outlined text-white group-hover:text-primary transition-colors text-3xl">visibility</span>
@@ -92,7 +75,7 @@ export default function Home() {
             </div>
 
             {/* Block 2: Intelligent Automation (4 columns) */}
-            <div className="md:col-span-4 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group hover:bg-white/10 transition-all duration-700 p-10 md:p-12 flex flex-col h-full min-h-[400px] hover:border-primary/50">
+            <div className="md:col-span-4 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-10 md:p-12 flex flex-col h-full min-h-[400px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
               <div className="mb-8 relative z-10 border border-white/20 p-4 inline-flex items-center justify-center self-start bg-black/40 group-hover:border-primary/50 transition-colors duration-500">
                 <span className="material-symbols-outlined text-white group-hover:text-primary transition-colors text-3xl">memory</span>
               </div>
@@ -106,7 +89,7 @@ export default function Home() {
             </div>
 
             {/* Block 3: Engineered Intelligence (12 columns) */}
-            <div className="md:col-span-12 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group hover:bg-white/10 transition-all duration-700 hover:border-primary/50 p-12 md:p-16 flex flex-col md:flex-row items-start md:items-center gap-12 mt-4">
+            <div className="md:col-span-12 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-12 md:p-16 flex flex-col md:flex-row items-start md:items-center gap-12 mt-4 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
               <div className="flex-1 relative z-10">
                 <div className="mb-8 border border-white/20 p-4 inline-flex items-center justify-center self-start bg-black/40 group-hover:border-primary/50 transition-colors duration-500">
                   <span className="material-symbols-outlined text-white group-hover:text-primary transition-colors text-3xl">psychology</span>
@@ -129,15 +112,6 @@ export default function Home() {
         </section>
       </main>
 
-      {/* Editorial Footer */}
-      <footer className="border-t border-white/10 py-16 px-6 mt-auto z-10 relative">
-        <div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 text-slate-500 text-xs font-medium uppercase tracking-[0.2em]">
-          <div className="flex items-center gap-4">
-             <img src="/logos/occult-logo.svg" alt="Occult" className="h-4 w-auto object-contain opacity-50 grayscale" />
-          </div>
-          <p>&copy; {new Date().getFullYear()} OCCULT. STRUCTURAL LEVERAGE.</p>
-        </div>
-      </footer>
     </div>
   );
 }
