@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +35,7 @@ export default function Navbar() {
       <nav className="absolute top-0 left-0 w-full z-50 bg-transparent">
         <div className="max-w-[1440px] mx-auto px-6 py-6 md:py-8 flex items-center justify-between">
           <Link href="/" className="z-[60] relative">
-            <img src="/logos/occult-logo.svg" alt="Occult Logo" className="h-6 md:h-8 w-auto" />
+            <Image src="/logos/occult-logo.svg" alt="Occult Logo" width={150} height={50} className="h-6 md:h-8 w-auto" />
           </Link>
 
           {/* Desktop Nav */}

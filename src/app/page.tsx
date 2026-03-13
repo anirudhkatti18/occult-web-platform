@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -39,11 +40,11 @@ export default function Home() {
         <section className="py-10 border-y border-white/10 relative mb-16 lg:mb-24">
           <p className="text-center font-semibold text-xs text-gray-500 uppercase tracking-widest mb-8">POWERED BY INDUSTRY LEADERS</p>
           <div className="flex flex-wrap items-center justify-center gap-12 md:gap-20">
-            <img src="/logos/Google_Cloud_logo.svg" alt="Google Cloud" className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
-            <img src="/logos/Meta_Platforms_Inc._logo.svg" alt="Meta" className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
-            <img src="/logos/amazon-prime-icon.svg" alt="Amazon Prime" className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
-            <img src="/logos/canva-icon.svg" alt="Canva" className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
-            <img src="/logos/aistudio.svg" alt="AI Studio" className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+            <Image src="/logos/Google_Cloud_logo.svg" alt="Google Cloud" width={150} height={50} className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+            <Image src="/logos/Meta_Platforms_Inc._logo.svg" alt="Meta" width={150} height={50} className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+            <Image src="/logos/amazon-prime-icon.svg" alt="Amazon Prime" width={150} height={50} className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+            <Image src="/logos/canva-icon.svg" alt="Canva" width={150} height={50} className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+            <Image src="/logos/aistudio.svg" alt="AI Studio" width={150} height={50} className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
           </div>
         </section>
 
