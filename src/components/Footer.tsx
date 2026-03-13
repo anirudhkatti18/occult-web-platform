@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
         <Link href="/">
           <Image 
-            src="/logos/occult-logo.svg" 
+            src="/occult-web-platform/logos/occult-logo.svg" 
             alt="Occult Logo" 
             width={150} height={50}
             className="h-8 md:h-10 w-auto opacity-80 hover:opacity-100 transition-opacity" 
