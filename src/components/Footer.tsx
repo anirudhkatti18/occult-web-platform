@@ -36,10 +36,10 @@ export default function Footer() {
         {/* Column 3: Architectures */}
         <div className="flex flex-col">
           <h4 className="text-white font-bold tracking-widest uppercase mb-6">CAPABILITIES</h4>
-          <span className="text-gray-400 text-sm mb-3 block">Marketing & Growth</span>
-          <span className="text-gray-400 text-sm mb-3 block">Business & Brand Consulting</span>
-          <span className="text-gray-400 text-sm mb-3 block">AI Solutions & Automation</span>
-          <span className="text-gray-400 text-sm mb-3 block">Data & Analytics</span>
+          <Link href="/services#marketing-growth" className="text-gray-400 hover:text-blue-400 transition-colors text-sm mb-3 block">Marketing & Growth</Link>
+          <Link href="/services#business-consulting" className="text-gray-400 hover:text-blue-400 transition-colors text-sm mb-3 block">Business & Brand Consulting</Link>
+          <Link href="/services#ai-automation" className="text-gray-400 hover:text-blue-400 transition-colors text-sm mb-3 block">AI Solutions & Automation</Link>
+          <Link href="/services#data-analytics" className="text-gray-400 hover:text-blue-400 transition-colors text-sm mb-3 block">Data & Analytics</Link>
         </div>
 
         {/* Column 4: Direct Comm */}

@@ -19,7 +19,7 @@ export default function Services() {
       <div className="flex flex-col gap-24 md:gap-32">
 
         {/* Section A: Marketing & Growth */}
-        <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
+        <section id="marketing-growth" className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
           <div className="lg:col-span-5 order-1 lg:order-1">
             <h2 className="text-3xl md:text-4xl font-black text-white mb-6 uppercase tracking-tight">Marketing & Growth</h2>
             <div className="h-1 w-16 bg-primary rounded-none mb-6"></div>
@@ -53,7 +53,7 @@ export default function Services() {
         </section>
 
         {/* Section B: Business & Brand Consulting */}
-        <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
+        <section id="business-consulting" className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
           <div className="lg:col-span-5 order-1 lg:order-2">
             <h2 className="text-3xl md:text-4xl font-black text-white mb-6 uppercase tracking-tight">Business & Brand Consulting</h2>
             <div className="h-1 w-16 bg-primary rounded-none mb-6"></div>
@@ -87,7 +87,7 @@ export default function Services() {
         </section>
 
         {/* Section C: AI Solutions & Automation */}
-        <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
+        <section id="ai-automation" className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
            <div className="lg:col-span-5 order-1 lg:order-1">
             <h2 className="text-3xl md:text-4xl font-black text-white mb-6 uppercase tracking-tight">AI Solutions & Automation</h2>
             <div className="h-1 w-16 bg-primary rounded-none mb-6"></div>
@@ -121,7 +121,7 @@ export default function Services() {
         </section>
 
         {/* Section D: Data & Analytics */}
-        <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
+        <section id="data-analytics" className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
           <div className="lg:col-span-5 order-1 lg:order-2">
             <h2 className="text-3xl md:text-4xl font-black text-white mb-6 uppercase tracking-tight">Data & Analytics</h2>
             <div className="h-1 w-16 bg-primary rounded-none mb-6"></div>
