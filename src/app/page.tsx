@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,16 +24,16 @@ export default function Home() {
           </h1>
           
           <p className="text-xl md:text-2xl text-slate-400 max-w-2xl leading-relaxed mb-16 font-light">
-            Occult is an engineered growth firm bridging the gap between massive market visibility and intelligent backend operations.
+            Visibility without infrastructure is a liability. Occult bridges the gap between massive market attention and hardcore backend operations. No standard agency fluff—just deployable growth architectures.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <button className="bg-primary hover:bg-white hover:text-black text-black font-bold py-5 px-12 rounded-none transition-all duration-300 uppercase tracking-widest text-sm shadow-[0_0_40px_rgba(0,229,255,0.2)] hover:shadow-none">
+            <Link href="/contact" className="bg-primary hover:bg-white hover:text-black text-black font-bold py-5 px-12 rounded-none transition-all duration-300 uppercase tracking-widest text-sm shadow-[0_0_40px_rgba(0,229,255,0.2)] hover:shadow-none text-center">
               Initialize Strategy
-            </button>
-            <button className="bg-white/[0.02] border border-white/[0.08] backdrop-blur-xl hover:bg-white/10 text-white font-bold py-5 px-12 rounded-none transition-all duration-300 uppercase tracking-widest text-sm">
+            </Link>
+            <Link href="/services" className="bg-white/[0.02] border border-white/[0.08] backdrop-blur-xl hover:bg-white/10 text-white font-bold py-5 px-12 rounded-none transition-all duration-300 uppercase tracking-widest text-sm text-center">
               Explore Our Models
-            </button>
+            </Link>
           </div>
         </section>
 
@@ -45,6 +46,22 @@ export default function Home() {
             <Image src="/occult-web-platform/logos/amazon-prime-icon.svg" alt="Amazon Prime" width={150} height={50} className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
             <Image src="/occult-web-platform/logos/canva-icon.svg" alt="Canva" width={150} height={50} className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
             <Image src="/occult-web-platform/logos/aistudio.svg" alt="AI Studio" width={150} height={50} className="h-8 md:h-10 w-auto object-contain grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300" />
+          </div>
+        </section>
+
+        {/* Strategic DNA */}
+        <section className="py-24 mb-16 lg:mb-24">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-center">
+            <div>
+              <h2 className="text-4xl md:text-5xl font-black text-white leading-tight">
+                Engineered from the Ground Up.
+              </h2>
+            </div>
+            <div>
+              <p className="text-lg text-gray-400 leading-relaxed">
+                Our foundation isn't built on standard advertising. It is rooted in advanced R&D, open-source intelligence (OSINT), and high-stakes cultural execution. We don't guess. We apply rigorous, systems-level engineering to business growth—building the engines that allow your enterprise to scale without fracturing.
+              </p>
+            </div>
           </div>
         </section>
 
@@ -61,36 +78,36 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-1 md:gap-4">
             
             {/* Block 1: Commanding Visibility (8 columns) */}
-            <div className="md:col-span-8 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-12 md:p-16 flex flex-col h-full min-h-[400px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+            <Link href="/services" className="md:col-span-8 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-12 md:p-16 flex flex-col h-full min-h-[400px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
               
               <div className="mb-8 relative z-10 border border-white/20 p-4 inline-flex items-center justify-center self-start bg-black/40 group-hover:border-primary/50 transition-colors duration-500">
                 <span className="material-symbols-outlined text-white group-hover:text-primary transition-colors text-3xl">visibility</span>
               </div>
               <h3 className="text-3xl md:text-5xl font-black text-white mb-6 uppercase tracking-tight relative z-10">Commanding<br/>Visibility</h3>
               <p className="text-slate-400 text-lg leading-relaxed flex-1 max-w-xl relative z-10 font-light">
-                We engineer high-converting campaigns that drive massive, targeted traffic. From precision social media execution to large-scale promotional rollouts, we capture the market's attention with calculated authority.
+                Attention is raw material. We execute massive, multi-platform promotional strategies. From engineering pan-India theatrical rollouts to precision digital targeting, we capture cultural attention and drive high-intent traffic at scale.
               </p>
               <div className="mt-12 flex items-center gap-4 text-white group-hover:text-primary text-sm font-bold uppercase tracking-[0.2em] transition-all duration-500 relative z-10 cursor-pointer w-fit">
                 Initialize Sequence <span className="material-symbols-outlined text-xl group-hover:translate-x-2 transition-transform">arrow_forward</span>
               </div>
-            </div>
+            </Link>
 
             {/* Block 2: Intelligent Automation (4 columns) */}
-            <div className="md:col-span-4 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-10 md:p-12 flex flex-col h-full min-h-[400px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+            <Link href="/services" className="md:col-span-4 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-10 md:p-12 flex flex-col h-full min-h-[400px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
               <div className="mb-8 relative z-10 border border-white/20 p-4 inline-flex items-center justify-center self-start bg-black/40 group-hover:border-primary/50 transition-colors duration-500">
                 <span className="material-symbols-outlined text-white group-hover:text-primary transition-colors text-3xl">memory</span>
               </div>
               <h3 className="text-2xl md:text-4xl font-black text-white mb-6 uppercase tracking-tight relative z-10">Intelligent<br/>Automation</h3>
               <p className="text-slate-400 text-base leading-relaxed flex-1 relative z-10 font-light">
-                Traffic is a liability if your backend can't process it. We build bespoke AI systems that instantly qualify inquiries, route leads, and execute logic automatically.
+                Traffic is useless if your backend crashes. We hardcode bespoke AI systems using tools like n8n and the Meta WhatsApp API. Our custom agents engage, qualify, and route leads the second they enter the ecosystem—without human delay.
               </p>
               <div className="mt-12 flex items-center gap-4 text-white group-hover:text-primary text-sm font-bold uppercase tracking-[0.2em] transition-all duration-500 relative z-10 cursor-pointer w-fit">
                 Deploy <span className="material-symbols-outlined text-xl group-hover:translate-x-2 transition-transform">arrow_forward</span>
               </div>
-            </div>
+            </Link>
 
             {/* Block 3: Engineered Intelligence (12 columns) */}
-            <div className="md:col-span-12 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-12 md:p-16 flex flex-col md:flex-row items-start md:items-center gap-12 mt-4 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+            <Link href="/services" className="md:col-span-12 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-12 md:p-16 flex flex-col md:flex-row items-start md:items-center gap-12 mt-4 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
               <div className="flex-1 relative z-10">
                 <div className="mb-8 border border-white/20 p-4 inline-flex items-center justify-center self-start bg-black/40 group-hover:border-primary/50 transition-colors duration-500">
                   <span className="material-symbols-outlined text-white group-hover:text-primary transition-colors text-3xl">psychology</span>
@@ -98,7 +115,7 @@ export default function Home() {
                 <h3 className="text-3xl md:text-6xl font-black text-white mb-4 uppercase tracking-tight">Engineered Intelligence</h3>
                 <div className="h-px w-full bg-white/10 my-8"></div>
                 <p className="text-slate-400 text-lg lg:text-xl leading-relaxed max-w-3xl font-light">
-                  We don't guess; we build. Our in-house development team constructs custom data pipelines and robust backend architectures to turn your raw data into strategic leverage at scale.
+                  We digitize legacy workflows and construct proprietary data pipelines. We turn raw market data into actionable intelligence, providing the structural leverage required for actual enterprise scale.
                 </p>
               </div>
 
@@ -107,7 +124,7 @@ export default function Home() {
                   Analyze Infrastructure <span className="material-symbols-outlined text-xl group-hover:translate-x-2 transition-transform">arrow_forward</span>
                 </div>
               </div>
-            </div>
+            </Link>
 
           </div>
         </section>
