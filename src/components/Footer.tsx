@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#050505] border-t border-white/10 pt-16 pb-8 mt-auto">
+    <footer className="w-full bg-white/[0.03] backdrop-blur-xl border-t border-white/10 pt-16 pb-8 relative z-10 overflow-hidden mt-auto">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
         
         {/* Column 1: Brand & HQ */}

@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ParticleBackground from "@/components/ParticleBackground";
 
 export const metadata: Metadata = {
   title: "Engineered Growth Firm",
@@ -36,6 +37,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-noise flex flex-col min-h-screen relative`}
       >
+        <ParticleBackground />
         <Navbar />
         <main className="flex-grow flex flex-col pt-24 md:pt-32 relative z-10">
           {children}

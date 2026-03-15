@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="bg-[#050505] text-slate-100 flex flex-col font-sans">
+    <div className="text-slate-100 flex flex-col font-sans">
       <div className="bg-noise"></div>
       
 
@@ -13,7 +13,7 @@ export default function Home() {
         
         {/* Brutalist Hero Section */}
         <section className="flex flex-col justify-center pt-16 pb-16 md:pt-24 md:pb-24 lg:pt-32 lg:pb-32 text-left">
-          <div className="inline-flex items-center gap-3 px-4 py-1.5 border border-white/10 mb-10 self-start bg-black/50">
+          <div className="inline-flex items-center gap-3 px-4 py-1.5 border border-white/10 mb-10 self-start bg-white/5 backdrop-blur-sm">
             <span className="w-2 h-2 rounded-none bg-primary animate-pulse"></span>
             <span className="text-xs uppercase tracking-[0.3em] font-bold text-slate-400">Engineered Growth Firm</span>
           </div>
@@ -80,7 +80,7 @@ export default function Home() {
             {/* Block 1: Commanding Visibility (8 columns) */}
             <Link href="/services" className="md:col-span-8 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-12 md:p-16 flex flex-col h-full min-h-[400px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
               
-              <div className="mb-8 relative z-10 border border-white/20 p-4 inline-flex items-center justify-center self-start bg-black/40 group-hover:border-primary/50 transition-colors duration-500">
+              <div className="mb-8 relative z-10 border border-white/20 p-4 inline-flex items-center justify-center self-start bg-white/5 backdrop-blur-sm group-hover:border-primary/50 transition-colors duration-500">
                 <span className="material-symbols-outlined text-white group-hover:text-primary transition-colors text-3xl">visibility</span>
               </div>
               <h3 className="text-3xl md:text-5xl font-black text-white mb-6 uppercase tracking-tight relative z-10">Commanding<br/>Visibility</h3>
@@ -94,7 +94,7 @@ export default function Home() {
 
             {/* Block 2: Intelligent Automation (4 columns) */}
             <Link href="/services" className="md:col-span-4 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-10 md:p-12 flex flex-col h-full min-h-[400px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
-              <div className="mb-8 relative z-10 border border-white/20 p-4 inline-flex items-center justify-center self-start bg-black/40 group-hover:border-primary/50 transition-colors duration-500">
+              <div className="mb-8 relative z-10 border border-white/20 p-4 inline-flex items-center justify-center self-start bg-white/5 backdrop-blur-sm group-hover:border-primary/50 transition-colors duration-500">
                 <span className="material-symbols-outlined text-white group-hover:text-primary transition-colors text-3xl">memory</span>
               </div>
               <h3 className="text-2xl md:text-4xl font-black text-white mb-6 uppercase tracking-tight relative z-10">Intelligent<br/>Automation</h3>
@@ -109,7 +109,7 @@ export default function Home() {
             {/* Block 3: Engineered Intelligence (12 columns) */}
             <Link href="/services" className="md:col-span-12 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-12 md:p-16 flex flex-col md:flex-row items-start md:items-center gap-12 mt-4 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
               <div className="flex-1 relative z-10">
-                <div className="mb-8 border border-white/20 p-4 inline-flex items-center justify-center self-start bg-black/40 group-hover:border-primary/50 transition-colors duration-500">
+                <div className="mb-8 border border-white/20 p-4 inline-flex items-center justify-center self-start bg-white/5 backdrop-blur-sm group-hover:border-primary/50 transition-colors duration-500">
                   <span className="material-symbols-outlined text-white group-hover:text-primary transition-colors text-3xl">psychology</span>
                 </div>
                 <h3 className="text-3xl md:text-6xl font-black text-white mb-4 uppercase tracking-tight">Engineered Intelligence</h3>
