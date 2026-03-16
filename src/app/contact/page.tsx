@@ -19,7 +19,7 @@ export default function Contact() {
         
         {/* Column 1: Direct Comm & Location */}
         <div>
-          <div className="bg-white/5 border border-white/10 p-6 md:p-10 lg:p-12 mb-8">
+          <div className="bg-white/5 border border-white/10 p-6 md:p-10 lg:p-12 mb-8 transition-all duration-300 hover:-translate-y-1 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)]">
             <h2 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-6">Direct Transmission</h2>
             <a 
               href="mailto:team@occult.marketing" 
@@ -29,14 +29,14 @@ export default function Contact() {
             </a>
           </div>
 
-          <div className="bg-white/5 border border-white/10 p-6 md:p-10 lg:p-12 mb-8">
+          <div className="bg-white/5 border border-white/10 p-6 md:p-10 lg:p-12 mb-8 transition-all duration-300 hover:-translate-y-1 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)]">
             <h2 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-6">Global Headquarters</h2>
             <p className="font-mono text-lg md:text-xl text-white max-w-sm">
               #366, Pattabhiram Nagar, Jayanagar 4 T Block, Bengaluru, Karnataka
             </p>
           </div>
 
-          <div className="bg-white/5 border border-white/10 p-6 md:p-10 lg:p-12">
+          <div className="bg-white/5 border border-white/10 p-6 md:p-10 lg:p-12 transition-all duration-300 hover:-translate-y-1 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)]">
             <h2 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-6">Direct Lines</h2>
             <p className="font-mono text-xl md:text-2xl text-white">
               +91 78928 50037
@@ -59,7 +59,7 @@ export default function Contact() {
                 type="text" 
                 id="commander"
                 name="commander_name"
-                className="bg-white/5 border-b border-white/20 focus:border-blue-500 border-x-0 border-t-0 p-4 font-mono text-white text-lg rounded-none focus:outline-none transition-colors"
+                className="bg-white/5 border-b border-white/20 focus:border-blue-500 border-x-0 border-t-0 p-4 font-mono text-white text-lg rounded-none focus:outline-none transition-all duration-300 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)]"
                 placeholder="Enter Name..."
                 required
               />
@@ -71,7 +71,7 @@ export default function Contact() {
                 type="email" 
                 id="email"
                 name="email"
-                className="bg-white/5 border-b border-white/20 focus:border-blue-500 border-x-0 border-t-0 p-4 font-mono text-white text-lg rounded-none focus:outline-none transition-colors"
+                className="bg-white/5 border-b border-white/20 focus:border-blue-500 border-x-0 border-t-0 p-4 font-mono text-white text-lg rounded-none focus:outline-none transition-all duration-300 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)]"
                 placeholder="Enter Email Address..."
                 required
               />
@@ -83,7 +83,7 @@ export default function Contact() {
                 type="text" 
                 id="location"
                 name="location"
-                className="bg-white/5 border-b border-white/20 focus:border-blue-500 border-x-0 border-t-0 p-4 font-mono text-white text-lg rounded-none focus:outline-none transition-colors"
+                className="bg-white/5 border-b border-white/20 focus:border-blue-500 border-x-0 border-t-0 p-4 font-mono text-white text-lg rounded-none focus:outline-none transition-all duration-300 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)]"
                 placeholder="Enter Location..."
               />
             </div>
@@ -94,7 +94,7 @@ export default function Contact() {
                 type="text" 
                 id="enterprise"
                 name="enterprise"
-                className="bg-white/5 border-b border-white/20 focus:border-blue-500 border-x-0 border-t-0 p-4 font-mono text-white text-lg rounded-none focus:outline-none transition-colors"
+                className="bg-white/5 border-b border-white/20 focus:border-blue-500 border-x-0 border-t-0 p-4 font-mono text-white text-lg rounded-none focus:outline-none transition-all duration-300 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)]"
                 placeholder="Enter Company Name..."
               />
             </div>
@@ -105,7 +105,7 @@ export default function Contact() {
                 id="objectives"
                 name="bottlenecks"
                 rows={5}
-                className="bg-white/5 border-b border-white/20 focus:border-blue-500 border-x-0 border-t-0 p-4 font-mono text-white text-lg rounded-none focus:outline-none transition-colors resize-y"
+                className="bg-white/5 border-b border-white/20 focus:border-blue-500 border-x-0 border-t-0 p-4 font-mono text-white text-lg rounded-none focus:outline-none transition-all duration-300 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)] resize-y"
                 placeholder="Detail current operational bottlenecks or desired scalability parameters..."
                 required
               ></textarea>

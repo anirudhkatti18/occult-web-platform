@@ -41,11 +41,24 @@ export default function Home() {
         <section className="py-10 border-y border-white/10 relative mb-16 lg:mb-24">
           <p className="text-center font-semibold text-xs text-gray-500 uppercase tracking-widest mb-8">POWERED BY INDUSTRY LEADERS</p>
           <div className="flex flex-wrap justify-center items-center gap-6 md:gap-12">
-            <Image src="/occult-web-platform/logos/google-ar21.svg" alt="Google" width={150} height={50} className="h-8 md:h-10 w-auto object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            <Image src="/occult-web-platform/logos/Google_Cloud_logo.svg" alt="Google Cloud" width={150} height={50} className="h-8 md:h-10 w-auto object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            <Image src="/occult-web-platform/logos/Meta_Platforms_Inc._logo.svg" alt="Meta" width={150} height={50} className="h-8 md:h-10 w-auto object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            <Image src="/occult-web-platform/logos/amazon-prime-icon.svg" alt="Amazon Prime" width={150} height={50} className="h-8 md:h-10 w-auto object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
-            <Image src="/occult-web-platform/logos/canva-icon.svg" alt="Canva" width={150} height={50} className="h-8 md:h-10 w-auto object-contain opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300" />
+            {[
+              { src: "/occult-web-platform/logos/google-ar21.svg", alt: "Google" },
+              { src: "/occult-web-platform/logos/aistudio-text.svg", alt: "Google AI Studio", className: "brightness-0 invert opacity-90" },
+              { src: "/occult-web-platform/logos/claude-color.svg", alt: "Claude AI Icon" },
+              { src: "/occult-web-platform/logos/claude-text.svg", alt: "Claude AI Text", className: "brightness-0 invert opacity-90" },
+              { src: "/occult-web-platform/logos/Meta_Platforms_Inc._logo.svg", alt: "Meta" },
+              { src: "/occult-web-platform/logos/amazon-prime-icon.svg", alt: "Amazon Prime" },
+              { src: "/occult-web-platform/logos/canva-icon.svg", alt: "Canva" }
+            ].map((logo, index) => (
+              <Image 
+                key={index}
+                src={logo.src} 
+                alt={logo.alt} 
+                width={150} 
+                height={50} 
+                className={`h-8 md:h-10 w-auto object-contain transition-all duration-300 hover:scale-105 ${logo.className || 'opacity-80 hover:opacity-100'}`} 
+              />
+            ))}
 
           </div>
         </section>
