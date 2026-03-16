@@ -79,7 +79,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-1 md:gap-4">
 
             {/* Block 1: Commanding Visibility (8 columns) */}
-            <Link href="/services" className="md:col-span-8 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-6 md:p-10 lg:p-12 flex flex-col h-full min-h-[400px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+            <Link href="/services" className="md:col-span-8 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden p-6 md:p-10 lg:p-12 flex flex-col h-full min-h-[400px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)] group">
 
               <div className="mb-8 relative z-10 border border-white/20 p-4 inline-flex items-center justify-center self-start bg-white/5 backdrop-blur-sm group-hover:border-primary/50 transition-colors duration-500">
                 <span className="material-symbols-outlined text-white group-hover:text-primary transition-colors text-3xl">visibility</span>
@@ -94,7 +94,7 @@ export default function Home() {
             </Link>
 
             {/* Block 2: Intelligent Automation (4 columns) */}
-            <Link href="/services" className="md:col-span-4 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-6 md:p-10 lg:p-12 flex flex-col h-full min-h-[400px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+            <Link href="/services" className="md:col-span-4 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden p-6 md:p-10 lg:p-12 flex flex-col h-full min-h-[400px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)] group">
               <div className="mb-8 relative z-10 border border-white/20 p-4 inline-flex items-center justify-center self-start bg-white/5 backdrop-blur-sm group-hover:border-primary/50 transition-colors duration-500">
                 <span className="material-symbols-outlined text-white group-hover:text-primary transition-colors text-3xl">memory</span>
               </div>
@@ -108,7 +108,7 @@ export default function Home() {
             </Link>
 
             {/* Block 3: Engineered Intelligence (12 columns) */}
-            <Link href="/services" className="md:col-span-12 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-6 md:p-10 lg:p-12 flex flex-col md:flex-row items-start md:items-center gap-12 mt-4 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+            <Link href="/services" className="md:col-span-12 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden p-6 md:p-10 lg:p-12 flex flex-col md:flex-row items-start md:items-center gap-12 mt-4 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)] group">
               <div className="flex-1 relative z-10">
                 <div className="mb-8 border border-white/20 p-4 inline-flex items-center justify-center self-start bg-white/5 backdrop-blur-sm group-hover:border-primary/50 transition-colors duration-500">
                   <span className="material-symbols-outlined text-white group-hover:text-primary transition-colors text-3xl">psychology</span>

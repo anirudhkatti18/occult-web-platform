@@ -39,7 +39,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-12 font-black uppercase tracking-[0.2em] text-sm">
+          <div className="hidden md:flex items-center gap-12 font-mono uppercase tracking-wider text-sm text-gray-300">
             {navLinks.map((link) => (
               <Link 
                 key={link.name} 
@@ -81,7 +81,7 @@ export default function Navbar() {
             >
               <Link
                 href={link.href}
-                className="text-3xl font-black uppercase tracking-[0.2em] hover:text-primary active:text-primary transition-colors"
+                className="text-3xl font-mono uppercase tracking-wider text-gray-300 hover:text-primary active:text-primary transition-colors"
               >
                 {link.name}
               </Link>

@@ -31,7 +31,7 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-1 md:gap-4">
           
           {/* Tenet 1 (Wide Block - span 8 columns) */}
-          <div className="md:col-span-8 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-6 md:p-10 lg:p-12 flex flex-col h-full min-h-[350px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+          <div className="md:col-span-8 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-6 md:p-10 lg:p-12 flex flex-col h-full min-h-[350px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)]">
             <h3 className="text-3xl md:text-5xl font-black text-white mb-6 uppercase tracking-tight relative z-10">
               Visibility Without<br />Infrastructure is Waste.
             </h3>
@@ -41,7 +41,7 @@ export default function About() {
           </div>
 
           {/* Tenet 2 (Standard Block - span 4 columns) */}
-          <div className="md:col-span-4 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-6 md:p-10 lg:p-12 flex flex-col h-full min-h-[350px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+          <div className="md:col-span-4 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-6 md:p-10 lg:p-12 flex flex-col h-full min-h-[350px] transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)]">
             <h3 className="text-2xl md:text-4xl font-black text-white mb-6 uppercase tracking-tight relative z-10">
               Automation is<br />the New Scale.
             </h3>
@@ -51,7 +51,7 @@ export default function About() {
           </div>
 
           {/* Tenet 3 (Full Width Block - span 12 columns) */}
-          <div className="md:col-span-12 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-6 md:p-10 lg:p-12 flex flex-col md:flex-row items-start md:items-center gap-12 mt-4 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+          <div className="md:col-span-12 bg-white/5 border border-white/[0.08] backdrop-blur-xl rounded-none relative overflow-hidden group p-6 md:p-10 lg:p-12 flex flex-col md:flex-row items-start md:items-center gap-12 mt-4 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)]">
             <div className="flex-1 relative z-10">
               <h3 className="text-3xl md:text-6xl font-black text-white mb-4 uppercase tracking-tight">Data Over Intuition.</h3>
               <div className="h-px w-full bg-white/10 my-8"></div>

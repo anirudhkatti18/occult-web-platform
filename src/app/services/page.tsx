@@ -28,7 +28,7 @@ export default function Services() {
             </p>
           </div>
           <div className="lg:col-span-7 order-2 lg:order-2">
-            <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-6 md:p-10 lg:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+            <div className="relative group overflow-hidden z-10 bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-6 md:p-10 lg:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)]">
               <h3 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-8 border-b border-white/10 pb-4">The Arsenal</h3>
               <ul className="text-xs md:text-sm text-gray-300 font-mono space-y-4">
                 <li className="flex items-start gap-3">
@@ -62,7 +62,7 @@ export default function Services() {
             </p>
           </div>
           <div className="lg:col-span-7 order-2 lg:order-1">
-            <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-6 md:p-10 lg:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+            <div className="relative group overflow-hidden z-10 bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-6 md:p-10 lg:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)]">
               <h3 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-8 border-b border-white/10 pb-4">The Arsenal</h3>
               <ul className="text-xs md:text-sm text-gray-300 font-mono space-y-4">
                 <li className="flex items-start gap-3">
@@ -96,7 +96,7 @@ export default function Services() {
             </p>
           </div>
           <div className="lg:col-span-7 order-2 lg:order-2">
-            <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-6 md:p-10 lg:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+            <div className="relative group overflow-hidden z-10 bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-6 md:p-10 lg:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)]">
               <h3 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-8 border-b border-white/10 pb-4">The Arsenal</h3>
               <ul className="text-xs md:text-sm text-gray-300 font-mono space-y-4">
                 <li className="flex items-start gap-3">
@@ -130,7 +130,7 @@ export default function Services() {
             </p>
           </div>
           <div className="lg:col-span-7 order-2 lg:order-1">
-            <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-6 md:p-10 lg:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+            <div className="relative group overflow-hidden z-10 bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-6 md:p-10 lg:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-[linear-gradient(to_top,rgba(14,165,233,0.4)_0%,rgba(255,255,255,0.05)_80%)] hover:shadow-[0_0_20px_rgba(14,165,233,0.1)]">
               <h3 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-8 border-b border-white/10 pb-4">The Arsenal</h3>
               <ul className="text-xs md:text-sm text-gray-300 font-mono space-y-4">
                 <li className="flex items-start gap-3">
