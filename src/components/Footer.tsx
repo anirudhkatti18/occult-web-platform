@@ -19,8 +19,8 @@ export default function Footer() {
           <p className="text-gray-400 text-sm mt-6">
             Engineered Growth Firm. Bridging massive visibility with backend automation.
           </p>
-          <p className="font-mono text-xs text-gray-500 mt-4 uppercase tracking-widest">
-            GLOBAL HEADQUARTERS: Bengaluru, India
+          <p className="font-mono text-xs text-gray-500 mt-4 uppercase tracking-widest max-w-xs">
+            GLOBAL HEADQUARTERS: #366, Pattabhiram Nagar, Jayanagar 4 T Block, Bengaluru, Karnataka
           </p>
         </div>
 
@@ -45,8 +45,8 @@ export default function Footer() {
         {/* Column 4: Direct Comm */}
         <div className="flex flex-col">
           <h4 className="text-white font-bold tracking-widest uppercase mb-6">TRANSMISSION</h4>
-          <a href="mailto:operations@occult.marketing" className="font-mono text-gray-400 hover:text-blue-400 transition-colors text-sm block mb-6">
-            operations@occult.marketing
+          <a href="mailto:team@occult.marketing" className="font-mono text-gray-400 hover:text-blue-400 transition-colors text-sm block mb-6">
+            team@occult.marketing
           </a>
           <Link href="/contact" className="text-xs font-bold text-blue-500 hover:text-white transition-colors">
             INITIATE STRATEGY -&gt;
@@ -56,10 +56,15 @@ export default function Footer() {
       </div>
 
       {/* Copyright Bottom Bar */}
-      <div className="max-w-7xl mx-auto px-6 border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
+      <div className="max-w-7xl mx-auto px-6 border-t border-white/10 pt-8 mt-12 flex flex-col md:flex-row justify-between items-center">
         <p className="text-gray-600 text-xs text-center md:text-left">
           © 2026 Occult. All rights reserved.
         </p>
+        <div className="flex gap-6 mt-4 md:mt-0 font-mono text-sm text-gray-400 tracking-wider">
+          <a href="https://www.linkedin.com/company/theoccult/" target="_blank" rel="noopener noreferrer" className="hover:text-sky-400 transition-colors">LINKEDIN</a>
+          <a href="https://www.instagram.com/_theoccult" target="_blank" rel="noopener noreferrer" className="hover:text-sky-400 transition-colors">INSTAGRAM</a>
+          <a href="https://www.facebook.com/people/Workwithoccult/61572815186804/" target="_blank" rel="noopener noreferrer" className="hover:text-sky-400 transition-colors">FACEBOOK</a>
+        </div>
       </div>
     </footer>
   );

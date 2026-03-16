@@ -22,17 +22,26 @@ export default function Contact() {
           <div className="bg-white/5 border border-white/10 p-6 md:p-10 lg:p-12 mb-8">
             <h2 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-6">Direct Transmission</h2>
             <a 
-              href="mailto:operations@occult.marketing" 
-              className="font-mono text-xl md:text-2xl text-white hover:text-primary transition-colors"
+              href="mailto:team@occult.marketing" 
+              className="font-mono text-xl md:text-2xl text-white hover:text-primary transition-colors break-all"
             >
-              operations@occult.marketing
+              team@occult.marketing
             </a>
           </div>
 
-          <div className="bg-white/5 border border-white/10 p-6 md:p-10 lg:p-12">
+          <div className="bg-white/5 border border-white/10 p-6 md:p-10 lg:p-12 mb-8">
             <h2 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-6">Global Headquarters</h2>
+            <p className="font-mono text-lg md:text-xl text-white max-w-sm">
+              #366, Pattabhiram Nagar, Jayanagar 4 T Block, Bengaluru, Karnataka
+            </p>
+          </div>
+
+          <div className="bg-white/5 border border-white/10 p-6 md:p-10 lg:p-12">
+            <h2 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-6">Direct Lines</h2>
             <p className="font-mono text-xl md:text-2xl text-white">
-              Bengaluru, India
+              +91 78928 50037
+              <br />
+              <span className="text-gray-500">/</span> +91 87623 16560
             </p>
           </div>
         </div>
