@@ -6,7 +6,7 @@ export default function Contact() {
       
       {/* Hero Section */}
       <section className="pt-32 md:pt-40 pb-16 md:pb-24">
-        <h1 className="text-6xl md:text-8xl font-black leading-[0.9] tracking-tighter text-white max-w-5xl uppercase mb-8">
+        <h1 className="text-4xl md:text-6xl lg:text-8xl font-black leading-tight tracking-tighter text-white max-w-5xl uppercase mb-8">
           System Intake.
         </h1>
         <p className="text-xl md:text-2xl text-slate-400 max-w-3xl leading-relaxed font-light">
@@ -19,7 +19,7 @@ export default function Contact() {
         
         {/* Column 1: Direct Comm & Location */}
         <div>
-          <div className="bg-white/5 border border-white/10 p-8 md:p-12 mb-8">
+          <div className="bg-white/5 border border-white/10 p-6 md:p-10 lg:p-12 mb-8">
             <h2 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-6">Direct Transmission</h2>
             <a 
               href="mailto:operations@occult.marketing" 
@@ -29,7 +29,7 @@ export default function Contact() {
             </a>
           </div>
 
-          <div className="bg-white/5 border border-white/10 p-8 md:p-12">
+          <div className="bg-white/5 border border-white/10 p-6 md:p-10 lg:p-12">
             <h2 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-6">Global Headquarters</h2>
             <p className="font-mono text-xl md:text-2xl text-white">
               Bengaluru, India
@@ -72,7 +72,7 @@ export default function Contact() {
 
             <button 
               type="submit" 
-              className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 uppercase tracking-widest transition-all duration-300 w-full rounded-none mt-4 shadow-[0_0_20px_rgba(37,99,235,0.3)] hover:shadow-none"
+              className="w-full sm:w-auto text-center text-xs md:text-sm bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 uppercase tracking-widest transition-all duration-300 rounded-none mt-4 shadow-[0_0_20px_rgba(37,99,235,0.3)] hover:shadow-none"
             >
               INITIATE SEQUENCE -&gt;
             </button>

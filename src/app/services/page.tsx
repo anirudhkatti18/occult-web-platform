@@ -3,11 +3,11 @@ import Link from 'next/link';
 
 export default function Services() {
   return (
-    <div className="w-full max-w-7xl mx-auto px-6 relative z-10 flex flex-col font-sans mb-32">
+    <div className="w-full max-w-7xl mx-auto px-5 md:px-6 relative z-10 flex flex-col font-sans mb-32">
       
       {/* Hero Section */}
-      <section className="pt-32 md:pt-40 pb-16 md:pb-24">
-        <h1 className="text-6xl md:text-8xl font-black leading-[0.9] tracking-tighter text-white max-w-5xl uppercase mb-8">
+      <section className="pt-32 pb-16 md:pt-40 md:pb-24">
+        <h1 className="text-4xl md:text-6xl lg:text-8xl font-black leading-tight tracking-tighter text-white max-w-5xl uppercase mb-8">
           Deployable Architectures.
         </h1>
         <p className="text-xl md:text-2xl text-slate-400 max-w-3xl leading-relaxed font-light">
@@ -28,24 +28,24 @@ export default function Services() {
             </p>
           </div>
           <div className="lg:col-span-7 order-2 lg:order-2">
-            <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-8 md:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+            <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-6 md:p-10 lg:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
               <h3 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-8 border-b border-white/10 pb-4">The Arsenal</h3>
-              <ul className="space-y-6 text-slate-300 font-mono text-sm md:text-base">
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  Performance Marketing & CRO Strategies
+              <ul className="text-xs md:text-sm text-gray-300 font-mono space-y-4">
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>Performance Marketing & CRO Strategies</span>
                 </li>
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  Large-Scale Promotional Rollouts & Influencer Ops
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>Large-Scale Promotional Rollouts & Influencer Ops</span>
                 </li>
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  Precision Lead Generation Campaigns
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>Precision Lead Generation Campaigns</span>
                 </li>
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  Marketing Automation & Funnel Optimization
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>Marketing Automation & Funnel Optimization</span>
                 </li>
               </ul>
             </div>
@@ -62,24 +62,24 @@ export default function Services() {
             </p>
           </div>
           <div className="lg:col-span-7 order-2 lg:order-1">
-            <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-8 md:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+            <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-6 md:p-10 lg:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
               <h3 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-8 border-b border-white/10 pb-4">The Arsenal</h3>
-              <ul className="space-y-6 text-slate-300 font-mono text-sm md:text-base">
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  Go-To-Market & Revenue Scaling Strategy
+              <ul className="text-xs md:text-sm text-gray-300 font-mono space-y-4">
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>Go-To-Market & Revenue Scaling Strategy</span>
                 </li>
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  Market Research & Competitive OSINT
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>Market Research & Competitive OSINT</span>
                 </li>
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  Brand Architecture & Product Positioning
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>Brand Architecture & Product Positioning</span>
                 </li>
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  Customer Experience & Sales Funnel Strategy
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>Customer Experience & Sales Funnel Strategy</span>
                 </li>
               </ul>
             </div>
@@ -96,24 +96,24 @@ export default function Services() {
             </p>
           </div>
           <div className="lg:col-span-7 order-2 lg:order-2">
-            <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-8 md:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+            <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-6 md:p-10 lg:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
               <h3 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-8 border-b border-white/10 pb-4">The Arsenal</h3>
-              <ul className="space-y-6 text-slate-300 font-mono text-sm md:text-base">
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  Custom AI-Driven WhatsApp & Web Agents
+              <ul className="text-xs md:text-sm text-gray-300 font-mono space-y-4">
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>Custom AI-Driven WhatsApp & Web Agents</span>
                 </li>
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  Automated Lead Qualification & CRM Pipelines
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>Automated Lead Qualification & CRM Pipelines</span>
                 </li>
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  Advanced Webhook & n8n Workflow Integrations
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>Advanced Webhook & n8n Workflow Integrations</span>
                 </li>
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  AI Inventory & Backend Management Systems
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>AI Inventory & Backend Management Systems</span>
                 </li>
               </ul>
             </div>
@@ -130,24 +130,24 @@ export default function Services() {
             </p>
           </div>
           <div className="lg:col-span-7 order-2 lg:order-1">
-            <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-8 md:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
+            <div className="bg-white/5 border border-white/10 backdrop-blur-xl rounded-none p-6 md:p-10 lg:p-12 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:bg-white/10 hover:border-blue-500/50">
               <h3 className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-8 border-b border-white/10 pb-4">The Arsenal</h3>
-              <ul className="space-y-6 text-slate-300 font-mono text-sm md:text-base">
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  Business Intelligence Dashboards & Reporting
+              <ul className="text-xs md:text-sm text-gray-300 font-mono space-y-4">
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>Business Intelligence Dashboards & Reporting</span>
                 </li>
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  Predictive Analytics & Customer Data Analysis
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>Predictive Analytics & Customer Data Analysis</span>
                 </li>
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  Proprietary Data Integration & Management Systems
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>Proprietary Data Integration & Management Systems</span>
                 </li>
-                <li className="flex items-start gap-4">
-                  <span className="text-primary mt-1">▹</span>
-                  AI-Powered Data Processing & Strategic Insights
+                <li className="flex items-start gap-3">
+                  <span className="text-blue-500 mt-0.5">›</span>
+                  <span>AI-Powered Data Processing & Strategic Insights</span>
                 </li>
               </ul>
             </div>
@@ -166,7 +166,7 @@ export default function Services() {
         
         <Link 
           href="/contact" 
-          className="inline-flex items-center justify-center bg-primary/10 border border-primary hover:bg-primary hover:text-black text-primary font-mono font-bold py-5 px-10 transition-all duration-300 uppercase tracking-widest text-sm md:text-base relative z-10 hover:shadow-[0_0_30px_rgba(0,229,255,0.4)]"
+          className="w-full sm:w-auto text-center text-xs md:text-sm inline-flex items-center justify-center bg-primary/10 border border-primary hover:bg-primary hover:text-black text-primary font-mono font-bold py-5 px-10 transition-all duration-300 uppercase tracking-widest relative z-10 hover:shadow-[0_0_30px_rgba(0,229,255,0.4)]"
         >
           &gt; INITIATE SEQUENCE <span className="ml-3 font-sans animate-pulse">_</span>
         </Link>
