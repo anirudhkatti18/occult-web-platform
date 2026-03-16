@@ -17,8 +17,24 @@ import Footer from "@/components/Footer";
 import ParticleBackground from "@/components/ParticleBackground";
 
 export const metadata: Metadata = {
-  title: "Engineered Growth Firm",
-  description: "Modern, high-performance Homepage built with Next.js and Tailwind CSS.",
+  title: 'Occult | Engineered Growth Firm',
+  description: 'Visibility without infrastructure is a liability. Occult bridges the gap between massive market attention and hardcore backend operations in Bengaluru, India.',
+  openGraph: {
+    title: 'Occult | Engineered Growth Firm',
+    description: 'No standard agency fluff—just deployable growth architectures. We engineer massive visibility and backend automation.',
+    url: 'https://anirudhkatti18.github.io/occult-web-platform/',
+    siteName: 'Occult',
+    images: [
+      {
+        url: 'https://anirudhkatti18.github.io/occult-web-platform/logos/occult-logo.svg', // Will update to a full OG image later
+        width: 1200,
+        height: 630,
+        alt: 'Occult Engineered Growth Firm',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
@@ -37,6 +53,34 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-noise flex flex-col min-h-screen relative`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ProfessionalService",
+              "name": "Occult",
+              "alternateName": "Engineered Growth Firm",
+              "url": "https://anirudhkatti18.github.io/occult-web-platform/",
+              "logo": "https://anirudhkatti18.github.io/occult-web-platform/logos/occult-logo.svg",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Bengaluru",
+                "addressCountry": "IN"
+              },
+              "description": "Engineered Growth Firm bridging massive market attention with hardcore backend automation.",
+              "knowsAbout": [
+                "AI-Driven Automation",
+                "n8n Workflow Engineering",
+                "Meta WhatsApp Business API Integrations",
+                "Open-Source Intelligence (OSINT)",
+                "Pan-India Theatrical Rollouts",
+                "Proprietary Data Pipelines",
+                "Performance Marketing"
+              ]
+            })
+          }}
+        />
         <ParticleBackground />
         <Navbar />
         <main className="flex-grow flex flex-col pt-24 md:pt-32 relative z-10">
