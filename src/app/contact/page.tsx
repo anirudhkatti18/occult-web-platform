@@ -39,14 +39,43 @@ export default function Contact() {
 
         {/* Column 2: The Terminal Form */}
         <div>
-          <form className="flex flex-col gap-10">
+          <form action="https://api.web3forms.com/submit" method="POST" className="flex flex-col gap-6">
+            <input type="hidden" name="access_key" value="fd50abac-a978-482b-9810-166af8e2ceb0" />
+            <input type="hidden" name="subject" value="New System Intake - Occult Web Platform" />
+            <input type="hidden" name="redirect" value="https://anirudhkatti18.github.io/occult-web-platform/contact" />
+
             <div className="flex flex-col">
               <label htmlFor="commander" className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-3">Commander / Name</label>
               <input 
                 type="text" 
                 id="commander"
+                name="commander_name"
                 className="bg-white/5 border-b border-white/20 focus:border-blue-500 border-x-0 border-t-0 p-4 font-mono text-white text-lg rounded-none focus:outline-none transition-colors"
                 placeholder="Enter Name..."
+                required
+              />
+            </div>
+
+            <div className="flex flex-col">
+              <label htmlFor="email" className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-3">Direct Comm / Email</label>
+              <input 
+                type="email" 
+                id="email"
+                name="email"
+                className="bg-white/5 border-b border-white/20 focus:border-blue-500 border-x-0 border-t-0 p-4 font-mono text-white text-lg rounded-none focus:outline-none transition-colors"
+                placeholder="Enter Email Address..."
+                required
+              />
+            </div>
+
+            <div className="flex flex-col">
+              <label htmlFor="location" className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-3">Coordinates / Location</label>
+              <input 
+                type="text" 
+                id="location"
+                name="location"
+                className="bg-white/5 border-b border-white/20 focus:border-blue-500 border-x-0 border-t-0 p-4 font-mono text-white text-lg rounded-none focus:outline-none transition-colors"
+                placeholder="Enter Location..."
               />
             </div>
 
@@ -55,6 +84,7 @@ export default function Contact() {
               <input 
                 type="text" 
                 id="enterprise"
+                name="enterprise"
                 className="bg-white/5 border-b border-white/20 focus:border-blue-500 border-x-0 border-t-0 p-4 font-mono text-white text-lg rounded-none focus:outline-none transition-colors"
                 placeholder="Enter Company Name..."
               />
@@ -64,9 +94,11 @@ export default function Contact() {
               <label htmlFor="objectives" className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-3">System Objectives / Operational Bottlenecks</label>
               <textarea 
                 id="objectives"
+                name="bottlenecks"
                 rows={5}
                 className="bg-white/5 border-b border-white/20 focus:border-blue-500 border-x-0 border-t-0 p-4 font-mono text-white text-lg rounded-none focus:outline-none transition-colors resize-y"
                 placeholder="Detail current operational bottlenecks or desired scalability parameters..."
+                required
               ></textarea>
             </div>
 

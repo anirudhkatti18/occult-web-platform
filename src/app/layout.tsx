@@ -35,6 +35,11 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
   },
+  icons: {
+    icon: '/occult-web-platform/logos/occult-logo.svg',
+    shortcut: '/occult-web-platform/logos/occult-logo.svg',
+    apple: '/occult-web-platform/logos/occult-logo.svg',
+  },
 };
 
 export default function RootLayout({
