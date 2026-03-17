@@ -50,13 +50,13 @@ export default function Home() {
               { src: "/occult-web-platform/logos/amazon-prime-icon.svg", alt: "Amazon Prime" },
               { src: "/occult-web-platform/logos/canva-icon.svg", alt: "Canva" }
             ].map((logo, index) => (
-              <Image 
+              <Image
                 key={index}
-                src={logo.src} 
-                alt={logo.alt} 
-                width={150} 
-                height={50} 
-                className={`h-8 md:h-10 w-auto object-contain transition-all duration-300 hover:scale-105 ${logo.className || 'opacity-80 hover:opacity-100'}`} 
+                src={logo.src}
+                alt={logo.alt}
+                width={150}
+                height={50}
+                className={`h-8 md:h-10 w-auto object-contain transition-all duration-300 hover:scale-105 ${logo.className || 'opacity-80 hover:opacity-100'}`}
               />
             ))}
 
@@ -113,7 +113,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl md:text-4xl font-black text-white mb-6 uppercase tracking-tight relative z-10">Intelligent<br />Automation</h3>
               <p className="text-slate-400 text-base leading-relaxed flex-1 relative z-10 font-light">
-                Traffic is useless if your backend crashes. We hardcode bespoke AI systems using tools like n8n and the Meta WhatsApp API. Our custom agents engage, qualify, and route leads the second they enter the ecosystem—without human delay.
+                Traffic is useless if your backend crashes. We hardcode bespoke AI systems using tools like n8n and Google Cloud Workflows. Our custom agents engage, qualify, and route leads the second they enter the ecosystem—without human delay.
               </p>
               <div className="mt-12 flex items-center gap-4 text-white group-hover:text-primary text-sm font-bold uppercase tracking-[0.2em] transition-all duration-500 relative z-10 cursor-pointer w-fit">
                 Deploy <span className="material-symbols-outlined text-xl group-hover:translate-x-2 transition-transform">arrow_forward</span>
