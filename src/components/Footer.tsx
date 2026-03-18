@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col">
           <Link href="/">
             <Image 
-              src="/occult-web-platform/logos/occult-logo.svg" 
+              src="/logos/occult-logo.svg" 
               alt="Occult Logo" 
               width={120} height={40}
               className="opacity-80 hover:opacity-100 transition-opacity" 

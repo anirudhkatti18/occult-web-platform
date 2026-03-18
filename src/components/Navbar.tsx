@@ -35,7 +35,7 @@ export default function Navbar() {
       <nav className="absolute top-0 left-0 w-full z-[100] bg-transparent">
         <div className="max-w-[1440px] mx-auto px-6 py-6 md:py-8 flex items-center justify-between">
           <Link href="/" className="z-[110] relative">
-            <Image src="/occult-web-platform/logos/occult-logo.svg" alt="Occult Logo" width={150} height={50} className="h-6 md:h-8 w-auto" />
+            <Image src="/logos/occult-logo.svg" alt="Occult Logo" width={150} height={50} className="h-6 md:h-8 w-auto" />
           </Link>
 
           {/* Desktop Nav */}

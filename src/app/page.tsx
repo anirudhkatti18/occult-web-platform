@@ -42,13 +42,13 @@ export default function Home() {
           <p className="text-center font-semibold text-xs text-gray-500 uppercase tracking-widest mb-8">POWERED BY INDUSTRY LEADERS</p>
           <div className="flex flex-wrap justify-center items-center gap-6 md:gap-12">
             {[
-              { src: "/occult-web-platform/logos/google-ar21.svg", alt: "Google" },
-              { src: "/occult-web-platform/logos/aistudio-text.svg", alt: "Google AI Studio", className: "brightness-0 invert opacity-90" },
-              { src: "/occult-web-platform/logos/claude-color.svg", alt: "Claude AI Icon" },
-              { src: "/occult-web-platform/logos/claude-text.svg", alt: "Claude AI Text", className: "brightness-0 invert opacity-90" },
-              { src: "/occult-web-platform/logos/Meta_Platforms_Inc._logo.svg", alt: "Meta" },
-              { src: "/occult-web-platform/logos/amazon-prime-icon.svg", alt: "Amazon Prime" },
-              { src: "/occult-web-platform/logos/canva-icon.svg", alt: "Canva" }
+              { src: "/logos/google-ar21.svg", alt: "Google" },
+              { src: "/logos/aistudio-text.svg", alt: "Google AI Studio", className: "brightness-0 invert opacity-90" },
+              { src: "/logos/claude-color.svg", alt: "Claude AI Icon" },
+              { src: "/logos/claude-text.svg", alt: "Claude AI Text", className: "brightness-0 invert opacity-90" },
+              { src: "/logos/Meta_Platforms_Inc._logo.svg", alt: "Meta" },
+              { src: "/logos/amazon-prime-icon.svg", alt: "Amazon Prime" },
+              { src: "/logos/canva-icon.svg", alt: "Canva" }
             ].map((logo, index) => (
               <Image
                 key={index}

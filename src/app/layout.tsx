@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Occult | Engineered Growth Firm',
     description: 'No standard agency fluff—just deployable growth architectures. We engineer massive visibility and backend automation.',
-    url: 'https://anirudhkatti18.github.io/occult-web-platform/',
+    url: 'https://anirudhkatti18.github.io/',
     siteName: 'Occult',
     images: [
       {
-        url: 'https://anirudhkatti18.github.io/occult-web-platform/logos/occult-logo.svg', // Will update to a full OG image later
+        url: 'https://anirudhkatti18.github.io/logos/occult-logo.svg', // Will update to a full OG image later
         width: 1200,
         height: 630,
         alt: 'Occult Engineered Growth Firm',
@@ -36,9 +36,9 @@ export const metadata: Metadata = {
     type: 'website',
   },
   icons: {
-    icon: '/occult-web-platform/logos/occult-logo.svg',
-    shortcut: '/occult-web-platform/logos/occult-logo.svg',
-    apple: '/occult-web-platform/logos/occult-logo.svg',
+    icon: '/logos/occult-logo.svg',
+    shortcut: '/logos/occult-logo.svg',
+    apple: '/logos/occult-logo.svg',
   },
 };
 
@@ -67,8 +67,8 @@ export default function RootLayout({
               "@type": "ProfessionalService",
               "name": "Occult",
               "alternateName": "Engineered Growth Firm",
-              "url": "https://anirudhkatti18.github.io/occult-web-platform/",
-              "logo": "https://anirudhkatti18.github.io/occult-web-platform/logos/occult-logo.svg",
+              "url": "https://anirudhkatti18.github.io/",
+              "logo": "https://anirudhkatti18.github.io/logos/occult-logo.svg",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Bengaluru",

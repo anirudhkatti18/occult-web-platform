@@ -51,7 +51,7 @@ export default function Contact() {
           <form action="https://api.web3forms.com/submit" method="POST" className="flex flex-col gap-6">
             <input type="hidden" name="access_key" value="fd50abac-a978-482b-9810-166af8e2ceb0" />
             <input type="hidden" name="subject" value="New System Intake - Occult Web Platform" />
-            <input type="hidden" name="redirect" value="https://anirudhkatti18.github.io/occult-web-platform/contact" />
+            <input type="hidden" name="redirect" value="https://anirudhkatti18.github.io/contact" />
 
             <div className="flex flex-col">
               <label htmlFor="commander" className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-3">Commander / Name</label>
