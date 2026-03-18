@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Occult | Engineered Growth Platform
 
-## Getting Started
+> Visibility without infrastructure is a liability. This repository contains the source code for the Occult digital headquarters—a high-performance, serverless web architecture designed for global scalability.
 
-First, run the development server:
+Live Site: [occult.marketing](https://occult.marketing)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🏗 Architecture & Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This platform eschews standard agency CMS fluff in favor of a rigorous, systems-level engineering approach:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Engine:** [Next.js](https://nextjs.org/) (React Framework)
+* **Language:** TypeScript (`.tsx`) for strict type-safety and error prevention.
+* **UI/UX Generation:** Google Stitch integrated via Model Context Protocol (MCP) for rapid, AI-assisted design implementation directly into the IDE.
+* **Deployment:** GitHub Pages (Continuous Integration/Continuous Deployment pipeline).
+* **Routing:** Fully static export (`output: 'export'`) for zero-latency, global CDN delivery.
+* **Lead Pipeline:** [Web3Forms](https://web3forms.com/) integrated for serverless, spam-filtered email routing directly to the agency inbox.
+* **Telemetry:** Google Analytics 4 (GA4) hardwired for real-time, event-based tracking.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Standard Operating Procedure (Deployment)
 
-## Learn More
+This infrastructure is completely decoupled from manual FTP or cPanel management. The `main` branch is the absolute source of truth. 
 
-To learn more about Next.js, take a look at the following resources:
+To deploy updates to the live site, execute the following standard Git workflow:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Test Locally:** Ensure all UI and routing works on `localhost:3000`.
+2. **Stage & Commit:**
+   ```bash
+   git add .
+   git commit -m "Brief description of the update"
