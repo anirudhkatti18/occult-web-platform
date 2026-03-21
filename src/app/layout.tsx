@@ -38,6 +38,14 @@ export const metadata: Metadata = {
     description: 'Bridging massive market visibility with automated backend operations.',
     url: 'https://occult.marketing',
     siteName: 'Occult',
+    images: [
+      {
+        url: 'https://occult.marketing/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Occult - Master The Signal',
+      },
+    ],
     locale: 'en_IN',
     type: 'website',
   },
